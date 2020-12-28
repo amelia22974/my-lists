@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #F51720;
+  color: #fff;
+  font-weight: 400;
+  padding: 2%;
+}
+
+p li{
+  color :#C0C0C0;
+  text-align: center;
+}
+
+.add-button{
+  position: absolute;
+  right: 18px;
+  top:10%;
+  background-color: #F8D210;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.to-do-list{
+  background-color: #fff6d0;
+  border-radius: 10px;
+  position: relative;
+  float: left;
+  margin: 20px;
+  margin-bottom: 50px;
+  color: #f5ba13;
+  width: 300px;
+  height: 400px;
+  cursor: pointer;
+  outline: none;
+  padding: 2rem;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#page-container {
+  position: relative;
+  min-height: 100%;
+}
