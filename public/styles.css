@@ -5,12 +5,31 @@
   padding: 0;
 }
 
+form {
+  float: left;
+}
+
 h1 {
   background-color: #F51720;
   color: #fff;
   font-weight: 400;
   padding: 2%;
 }
+
+input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  display:inline-block;
+  width: 250px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
 
 p li{
   color :#C0C0C0;
@@ -20,17 +39,15 @@ p li{
 .add-button{
   position: absolute;
   right: 18px;
-  top:10%;
   background-color: #F8D210;
   border: none;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
 }
-
 
 .footer{
   position: relative;
@@ -54,8 +71,19 @@ p li{
   padding: 2rem;
 }
 
+.vanishing-button{
+  visibility: hidden;
+}
+.vanishing-button:hover{
+  visibility: visible;
+}
+
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#list-title {
+  color: "black";
 }
 
 #page-container {
